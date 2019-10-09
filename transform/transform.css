@@ -51,7 +51,7 @@ body {
 /* SCALE */
 
 /* scale() makes an element larger or smaller 
-and can be set to specifically affect the width (X-axis) or height (Y-axis). */
+and can be set to specifcally affect the width (X-axis) or height (Y-axis). */
 .scaleX{
   transform: scaleX(1);
   transition: transform 0.5s ease;
@@ -59,7 +59,7 @@ and can be set to specifically affect the width (X-axis) or height (Y-axis). */
 
 
 .box:hover .scaleX{
-  transform: scaleX(2);
+  transform: scaleX(1.1);
 }
 
 .scaleY{
@@ -239,7 +239,7 @@ A positive Y value tilts it down, and a negative Y value tilts it up. */
 /* By default, transforms use the center of your element as the origin point, or anchor. 
 The transform-origin property allows us to change that. */
 .origin{
-  transform-origin: left top;
+  transform-origin: left bottom;
   /* below is the same as the top */
   /* transform-origin: 10% 0%; */
   transition: transform 3s ease;  
